@@ -1,5 +1,5 @@
 ---
-title: Microframework for building websites
+title: Not a framework
 page-class: index
 page-footer: |
   <script>
@@ -10,8 +10,8 @@ page-footer: |
 ---
 
 
-Microframework for building websites
-====================================
+Not a framework
+===============
 
 Used in:
 
