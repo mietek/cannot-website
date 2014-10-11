@@ -1,7 +1,7 @@
-_cannot_ website
+_cannot-website_
 ================
 
-Documentation for [_cannot_](http://cannot.mietek.io/).
+[_cannot_ website](http://cannot.mietek.io/).
 
 Built with [_cannot_](http://cannot.mietek.io/).
 
