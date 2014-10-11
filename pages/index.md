@@ -1,5 +1,5 @@
 ---
-title: Not a framework
+title: Not a web framework
 page-class: index
 page-footer: |
   <script>
@@ -10,8 +10,8 @@ page-footer: |
 ---
 
 
-Not a framework
-===============
+Not a web framework
+==================
 
 Used in:
 
