@@ -1,7 +1,5 @@
-_cannot-website_
-================
-
-[_cannot_ website](http://cannot.mietek.io/).
+_[cannot](http://cannot.mietek.io/)-website_
+============================================
 
 Built with [_cannot_](http://cannot.mietek.io/).
 
