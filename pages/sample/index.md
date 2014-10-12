@@ -1,6 +1,6 @@
 ---
 title: Sample page
-page-class: add-section-toc
+page-class: add-main-toc
 page-head: |
   <style>
     header a.link-sample {
