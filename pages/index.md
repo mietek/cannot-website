@@ -12,10 +12,17 @@ page-footer: |
 ---
 
 
-Not a web framework
-==================
+_cannot_
+========
 
-Used by:
+_cannot_ is not a web framework.
+
+> _“Those who do not understand Unix are condemned to reinvent it, poorly.”_  
+> — [Henry Spencer](http://en.wikipedia.org/wiki/Henry_Spencer)
+
+
+Examples
+--------
 
 - [This website](https://github.com/mietek/cannot-website/)
 - [My website](https://github.com/mietek/mietek-website/)
@@ -27,8 +34,6 @@ Used by:
 
 Usage
 -----
-
-_cannot_ is not a web framework, and is not currently intended for public use.
 
 ```
 $ ln -s bower_components/cannot/Makefile .
@@ -79,8 +84,13 @@ About
 
 <span id="mietek"><a class="hello" href=""></a></span>
 
-My name is [Miëtek Bak](http://mietek.io/).  I make software, and _cannot_ is one of [my projects](http://mietek.io/projects/).
+My name is [Miëtek Bak](http://mietek.io/).  I make software, and _cannot_ is one of [my projects](http://mietek.io/projects/).
 
-This work is published under the [MIT X11 license](license/), and supported by my company, [Least Fixed](http://leastfixed.com/).
+This work is published under the [MIT X11 license](license/), and supported by my company, [Least Fixed](http://leastfixed.com/).
 
-How can I help you?  Would you like to work with me?  Say <a class="hello" href="">hello</a>.
+Would you like to work with me?  Say <a class="hello" href="">hello</a>.
+
+
+### Acknowledgments
+
+The monospaced font used in this website is [PragmataPro](http://www.fsd.it/fonts/pragmatapro.htm), by [Fabrizio Schiavi](http://www.fsd.it/).  The sans-serif font is [Concourse](http://practicaltypography.com/concourse.html), by [Matthew Butterick](http://practicaltypography.com/).
