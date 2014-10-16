@@ -15,7 +15,7 @@ page-footer: |
 Not a web framework
 ==================
 
-Used in:
+Used by:
 
 - [This website](https://github.com/mietek/cannot-website/)
 - [My website](https://github.com/mietek/mietek-website/)
