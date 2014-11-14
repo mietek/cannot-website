@@ -1,6 +1,6 @@
 ---
 title: Not a web framework
-page-class: index
+page-class: index tweak-listings
 page-footer: |
   <script>
     addEventListener('load', function () {
@@ -21,21 +21,8 @@ _cannot_ is not a web framework.
 > — [Henry Spencer](https://en.wikipedia.org/wiki/Henry_Spencer)
 
 
-Examples
---------
-
-- [Haskell on Heroku website](https://haskellonheroku.com/) ([Source](https://github.com/mietek/haskell-on-heroku-website/))
-- [Halcyon website](https://halcyon.sh/) ([Source](https://github.com/mietek/halcyon-website/))
-- [_bashmenot_ website](https://bashmenot.mietek.io/) ([Source](https://github.com/mietek/bashmenot-website/))
-- [_cannot_ website](https://cannot.mietek.io/) ([Source](https://github.com/mietek/cannot-website/))
-- [Least Fixed website](https://leastfixed.com/) ([Source](https://github.com/mietek/least-fixed-website/))
-- [Miëtek Bak website](https://mietek.io/) ([Source](https://github.com/mietek/mietek-website/))
-
-
 Usage
 -----
-
-Available as a [Bower](http://bower.io/) package.
 
 ```
 $ bower install cannot
@@ -44,7 +31,24 @@ $ make
 ```
 
 
+### Examples
+
+> --------------------------------------------------|---
+> [Halcyon](https://halcyon.sh/)                    | [Source](https://github.com/mietek/halcyon-website/)
+> [Haskell on Heroku](https://haskellonheroku.com/) | [Source](https://github.com/mietek/haskell-on-heroku-website/)
+> [Least Fixed](https://leastfixed.com/)            | [Source](https://github.com/mietek/least-fixed-website/)
+> [Miëtek Bak](https://mietek.io/)                  | [Source](https://github.com/mietek/mietek-website/)
+> [_bashmenot_](https://bashmenot.mietek.io/)       | [Source](https://github.com/mietek/bashmenot-website/)
+> [_cannot_](https://cannot.mietek.io/)             | [Source](https://github.com/mietek/cannot-website/)
+
+
 ### Dependencies
+
+```
+$ brew install advancecomp fswatch imagemagick jpegoptim node optipng pandoc
+$ gem install sass
+$ npm install -g browser-sync clean-css webpack
+```
 
 _cannot_ requires [GNU _make_](https://gnu.org/software/make/), [GNU _bash_](https://gnu.org/software/bash/), and:
 
@@ -57,19 +61,13 @@ _cannot_ requires [GNU _make_](https://gnu.org/software/make/), [GNU _bash_](htt
 - [_ease-scroll_](https://github.com/mietek/ease-scroll/) for smooth scrolling.
 - [_git_](http://git-scm.com/) for publishing.
 
-```
-$ brew install advancecomp fswatch imagemagick jpegoptim node optipng pandoc
-$ gem install sass
-$ npm install -g bower browser-sync clean-css webpack
-```
-
-#### Non-free dependencies
+Additionally, _cannot_ requires:
 
 - [Sketch](http://bohemiancoding.com/sketch/) for rebuilding images.
 - [Icon Slate](http://kodlian.com/apps/icon-slate/) for rebuilding favicons.
 
 
-### Bugs
+### Support
 
 Please report any problems with _cannot_ on the [issue tracker](https://github.com/mietek/cannot/issues/).
 
