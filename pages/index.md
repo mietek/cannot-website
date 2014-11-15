@@ -18,7 +18,7 @@ _cannot_
 _cannot_ is not a web framework.
 
 > _“Those who do not understand Unix are condemned to reinvent it, poorly.”_  
-> — [Henry Spencer](https://en.wikipedia.org/wiki/Henry_Spencer)
+> — [Henry Spencer](https://en.wikipedia.org/wiki/Henry_Spencer)
 
 
 Usage
@@ -33,13 +33,20 @@ $ make
 
 ### Examples
 
-> --------------------------------------------------|---
-> [Halcyon](https://halcyon.sh/)                    | [Source](https://github.com/mietek/halcyon-website/)
-> [Haskell on Heroku](https://haskellonheroku.com/) | [Source](https://github.com/mietek/haskell-on-heroku-website/)
-> [Least Fixed](https://leastfixed.com/)            | [Source](https://github.com/mietek/least-fixed-website/)
-> [Miëtek Bak](https://mietek.io/)                  | [Source](https://github.com/mietek/mietek-website/)
-> [_bashmenot_](https://bashmenot.mietek.io/)       | [Source](https://github.com/mietek/bashmenot-website/)
-> [_cannot_](https://cannot.mietek.io/)             | [Source](https://github.com/mietek/cannot-website/)
+Live                                              | GitHub
+--------------------------------------------------|---------
+[Halcyon](https://halcyon.sh/)                    | [_halcyon-website_](https://github.com/mietek/halcyon-website/)
+[Haskell on Heroku](https://haskellonheroku.com/) | [_haskell-on-heroku-website_](https://github.com/mietek/haskell-on-heroku-website/)
+[Least Fixed](https://leastfixed.com/)            | [_least-fixed-website_](https://github.com/mietek/least-fixed-website/)
+[Miëtek Bak](https://mietek.io/)                  | [_mietek-website_](https://github.com/mietek/mietek-website/)
+[_bashmenot_](https://bashmenot.mietek.io/)       | [_bashmenot-website_](https://github.com/mietek/bashmenot-website/)
+[_cannot_](https://cannot.mietek.io/)             | [_cannot-website_](https://github.com/mietek/cannot-website/)
+
+
+### Documentation
+
+- [Sample page](sample/)
+- [Source code](https://github.com/mietek/cannot/)
 
 
 ### Dependencies
@@ -52,26 +59,21 @@ $ npm install -g browser-sync clean-css webpack
 
 _cannot_ requires [GNU _make_](https://gnu.org/software/make/), [GNU _bash_](https://gnu.org/software/bash/), and:
 
-- [_pandoc_](http://johnmacfarlane.net/pandoc/) for generating pages.
-- [Sass](http://sass-lang.com/) and [_clean-css_](https://github.com/jakubpawlowicz/clean-css/) for processing stylesheets.
-- [_webpack_](https://webpack.github.io/) for bundling scripts.
-- [Advance<span class="small-caps">Comp</span>](http://advancemame.sourceforge.net/comp-readme.html) for recompressing archives.
-- [ImageMagick](http://imagemagick.org/), [_jpegoptim_](https://github.com/tjko/jpegoptim/), and [OptiPNG](http://optipng.sourceforge.net/) for optimising images.
-- [_fswatch_](https://github.com/emcrisostomo/fswatch/) and [BrowserSync](http://browsersync.io/) for automatic reloading.
-- [_ease-scroll_](https://github.com/mietek/ease-scroll/) for smooth scrolling.
-- [_git_](http://git-scm.com/) for publishing.
-
-Additionally, _cannot_ requires:
-
-- [Sketch](http://bohemiancoding.com/sketch/) for rebuilding images.
-- [Icon Slate](http://kodlian.com/apps/icon-slate/) for rebuilding favicons.
+- [Bower](http://bower.io/)—installation
+- [_pandoc_](http://johnmacfarlane.net/pandoc/)—generating pages
+- [Sass](http://sass-lang.com/) and [_clean-css_](https://github.com/jakubpawlowicz/clean-css/)—processing stylesheets
+- [_webpack_](https://webpack.github.io/)—bundling scripts
+- [Advance<span class="small-caps">Comp</span>](http://advancemame.sourceforge.net/comp-readme.html)—recompressing archives
+- [ImageMagick](http://imagemagick.org/), [_jpegoptim_](https://github.com/tjko/jpegoptim/), and [OptiPNG](http://optipng.sourceforge.net/)—optimising images
+- [Sketch](http://bohemiancoding.com/sketch/)—rebuilding images
+- [Icon Slate](http://kodlian.com/apps/icon-slate/)—rebuilding favicons
+- [_fswatch_](https://github.com/emcrisostomo/fswatch/) and [BrowserSync](http://browsersync.io/)—automatic reloading
+- [_s3cmd_](http://s3tools.org/)—publishing to Amazon S3
 
 
 ### Support
 
-Please report any problems with _cannot_ on the [issue tracker](https://github.com/mietek/cannot/issues/).
-
-There is a [separate issue tracker](https://github.com/mietek/cannot-website/issues/) for problems with the documentation.
+Please report any problems with _cannot_ on the [issue tracker](https://github.com/mietek/cannot/issues/).  There is a [separate issue tracker](https://github.com/mietek/cannot-website/issues/) for problems with the documentation.
 
 
 About
@@ -79,9 +81,9 @@ About
 
 <span id="mietek"><a class="hello" href=""></a></span>
 
-My name is [Miëtek Bak](https://mietek.io/).  I make software, and _cannot_ is one of [my projects](https://mietek.io/projects/).
+My name is [Miëtek Bak](https://mietek.io/).  I make software, and _cannot_ is one of [my projects](https://mietek.io/projects/).
 
-This work is published under the [MIT X11 license](license/), and supported by my company, [Least Fixed](https://leastfixed.com/).
+This work is published under the [MIT X11 license](license/), and supported by my company, [Least Fixed](https://leastfixed.com/).
 
 Like my work?  I am available for consulting on software projects.  Say <a class="hello" href="">hello</a>, or follow <a href="https://twitter.com/mietek">@mietek</a>.
 
