@@ -51,7 +51,7 @@ Live                                              | GitHub
 
 ### Documentation
 
-- [Sample page](sample/)
+- [Sample page](/sample/)
 - [Source code](https://github.com/mietek/cannot/)
 
 
@@ -84,7 +84,7 @@ About
 
 My name is [Miëtek Bak](https://mietek.io/).  I make software, and _cannot_ is one of [my projects](https://mietek.io/projects/).
 
-This work is published under the [MIT X11 license](license/), and supported by my company, [Least Fixed](https://leastfixed.com/).
+This work is published under the [MIT X11 license](/license/), and supported by my company, [Least Fixed](https://leastfixed.com/).
 
 Like my work?  I am available for consulting.  Say <a class="hello" href="">hello</a>, or follow <a href="https://twitter.com/mietek">@mietek</a>.
 
