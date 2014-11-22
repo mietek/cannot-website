@@ -25,8 +25,6 @@ _cannot_ is not a web framework.
 Usage
 -----
 
-_cannot_ is installed with [Bower](http://bower.io/), and runs with [GNU _make_](https://gnu.org/software/make/).
-
 ```
 $ bower install cannot
 $ ln -s bower_components/cannot/Makefile .
@@ -34,25 +32,9 @@ $ make
 ```
 
 
-### Dependencies
+### Support
 
-- [GNU _make_](https://gnu.org/software/make/) and [GNU _bash_](https://gnu.org/software/bash/)
-- [Bower](http://bower.io/)—for installation
-- [_pandoc_](http://johnmacfarlane.net/pandoc/)—for generating pages
-- [Sass](http://sass-lang.com/) and [_clean-css_](https://github.com/jakubpawlowicz/clean-css/)—for processing stylesheets
-- [_webpack_](https://webpack.github.io/)—for bundling scripts
-- [Advance<span class="small-caps">Comp</span>](http://advancemame.sourceforge.net/comp-readme.html)—for recompressing archives
-- [ImageMagick](http://imagemagick.org/), [_jpegoptim_](https://github.com/tjko/jpegoptim/), and [OptiPNG](http://optipng.sourceforge.net/)—for optimising images
-- [Sketch](http://bohemiancoding.com/sketch/)—for rebuilding images
-- [Icon Slate](http://kodlian.com/apps/icon-slate/)—for rebuilding favicons
-- [_fswatch_](https://github.com/emcrisostomo/fswatch/) and [BrowserSync](http://browsersync.io/)—for automatic reloading
-- [_s3cmd_](http://s3tools.org/)—for publishing to Amazon S3
-
-```
-$ brew install advancecomp fswatch imagemagick jpegoptim node optipng pandoc
-$ gem install sass
-$ npm install -g browser-sync clean-css webpack
-```
+Please report any problems with _cannot_ on the [issue tracker](https://github.com/mietek/cannot/issues/).  There is a [separate issue tracker](https://github.com/mietek/cannot-website/issues/) for problems with the documentation.
 
 
 ### Examples
@@ -73,15 +55,32 @@ Live                                              | GitHub
 - [Source code](https://github.com/mietek/cannot/)
 
 
-### Support
+### Dependencies
 
-Please report any problems with _cannot_ on the [issue tracker](https://github.com/mietek/cannot/issues/).  There is a [separate issue tracker](https://github.com/mietek/cannot-website/issues/) for problems with the documentation.
+```
+$ brew install advancecomp fswatch imagemagick jpegoptim node optipng pandoc
+$ gem install sass
+$ npm install -g browser-sync clean-css webpack
+```
+
+- [GNU _make_](https://gnu.org/software/make/) and [GNU _bash_](https://gnu.org/software/bash/)
+- [Bower](http://bower.io/)—for installation
+- [_pandoc_](http://johnmacfarlane.net/pandoc/)—for generating pages
+- [Sass](http://sass-lang.com/) and [_clean-css_](https://github.com/jakubpawlowicz/clean-css/)—for processing stylesheets
+- [_webpack_](https://webpack.github.io/)—for bundling scripts
+- [_ease-scroll_](https://github.com/mietek/ease-scroll/)—for smooth scrolling
+- [Advance<span class="small-caps">Comp</span>](http://advancemame.sourceforge.net/comp-readme.html)—for recompressing archives
+- [ImageMagick](http://imagemagick.org/), [_jpegoptim_](https://github.com/tjko/jpegoptim/), and [OptiPNG](http://optipng.sourceforge.net/)—for optimising images
+- [Sketch](http://bohemiancoding.com/sketch/)—for rebuilding images
+- [Icon Slate](http://kodlian.com/apps/icon-slate/)—for rebuilding favicons
+- [_fswatch_](https://github.com/emcrisostomo/fswatch/) and [BrowserSync](http://browsersync.io/)—for automatic reloading
+- [_s3cmd_](http://s3tools.org/)—for publishing to Amazon S3
 
 
 About
 -----
 
-<span id="mietek"><a class="hello" href=""></a></span>
+<span id="mietek"></span>
 
 My name is [Miëtek Bak](https://mietek.io/).  I make software, and _cannot_ is one of [my projects](https://mietek.io/projects/).
 
@@ -92,4 +91,4 @@ Like my work?  I am available for consulting.  Say <a class="hello" href="">hell
 
 ### Acknowledgments
 
-The monospaced font used in this website is [PragmataPro](http://fsd.it/fonts/pragmatapro.htm), by [Fabrizio Schiavi](http://fsd.it/).  The sans-serif font is [Concourse](http://practicaltypography.com/concourse.html), by [Matthew Butterick](http://practicaltypography.com/).  Website built with [_cannot_](https://cannot.mietek.io/).
+The monospaced font used in this website is [PragmataPro](http://fsd.it/fonts/pragmatapro.htm), by [Fabrizio Schiavi](http://fsd.it/).  The sans-serif font is [Concourse](http://practicaltypography.com/concourse.html), by [Matthew Butterick](http://practicaltypography.com/).
