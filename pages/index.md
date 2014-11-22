@@ -22,25 +22,25 @@ _cannot_ is not a web framework.
 > — [Henry Spencer](https://en.wikipedia.org/wiki/Henry_Spencer)
 
 
-Usage
------
-
-```
-$ bower install cannot
-$ ln -s bower_components/cannot/Makefile .
-$ make
-```
-
-
 ### Support
 
 Please report any problems with _cannot_ on the [issue tracker](https://github.com/mietek/cannot/issues/).  There is a [separate issue tracker](https://github.com/mietek/cannot-website/issues/) for problems with the documentation.
 
 
+Usage
+-----
+
+```
+# bower install cannot
+# ln -s bower_components/cannot/Makefile .
+# make
+```
+
+
 ### Examples
 
-Live                                              | GitHub
---------------------------------------------------|---------
+Website                                           | Source code
+--------------------------------------------------|--------------
 [Halcyon](https://halcyon.sh/)                    | [_halcyon-website_](https://github.com/mietek/halcyon-website/)
 [Haskell on Heroku](https://haskellonheroku.com/) | [_haskell-on-heroku-website_](https://github.com/mietek/haskell-on-heroku-website/)
 [Least Fixed](https://leastfixed.com/)            | [_least-fixed-website_](https://github.com/mietek/least-fixed-website/)
@@ -51,16 +51,20 @@ Live                                              | GitHub
 
 ### Documentation
 
-- [Sample page](/sample/)
-- [Source code](https://github.com/mietek/cannot/)
+<div><nav>
+<ul class="menu open">
+<li><a href="/sample/">Sample page</a></li>
+<li><a href="https://github.com/mietek/cannot/">Source code</a></li>
+</ul>
+</nav></div>
 
 
 ### Dependencies
 
 ```
-$ brew install advancecomp fswatch imagemagick jpegoptim node optipng pandoc
-$ gem install sass
-$ npm install -g browser-sync clean-css webpack
+# brew install advancecomp fswatch imagemagick jpegoptim node optipng pandoc
+# gem install sass
+# npm install -g bower browser-sync clean-css webpack
 ```
 
 - [GNU _make_](https://gnu.org/software/make/) and [GNU _bash_](https://gnu.org/software/bash/)
