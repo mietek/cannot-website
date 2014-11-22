@@ -13,7 +13,7 @@ page-head: |
 Sample page
 ===========
 
-<nav id="main-toc"></nav>
+<div><nav id="main-toc"></nav></div>
 
 
 Lorem ipsum
