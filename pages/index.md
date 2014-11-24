@@ -30,6 +30,8 @@ Please report any problems with _cannot_ on the [issue tracker](https://github.c
 Usage
 -----
 
+_cannot_ is installed with [Bower](http://bower.io/), and operates as a [GNU Makefile](https://gnu.org/software/make/).
+
 ```
 # bower install cannot
 # ln -s bower_components/cannot/Makefile .
@@ -61,12 +63,6 @@ Website                                           | Source code
 
 ### Dependencies
 
-```
-# brew install advancecomp fswatch imagemagick jpegoptim node optipng pandoc
-# gem install sass
-# npm install -g bower browser-sync clean-css webpack
-```
-
 - [GNU _make_](https://gnu.org/software/make/) and [GNU _bash_](https://gnu.org/software/bash/)
 - [Bower](http://bower.io/)—for installation
 - [_pandoc_](http://johnmacfarlane.net/pandoc/)—for generating pages
@@ -75,10 +71,17 @@ Website                                           | Source code
 - [_ease-scroll_](https://github.com/mietek/ease-scroll/)—for smooth scrolling
 - [Advance<span class="small-caps">Comp</span>](http://advancemame.sourceforge.net/comp-readme.html)—for recompressing archives
 - [ImageMagick](http://imagemagick.org/), [_jpegoptim_](https://github.com/tjko/jpegoptim/), and [OptiPNG](http://optipng.sourceforge.net/)—for optimising images
-- [Sketch](http://bohemiancoding.com/sketch/)—for rebuilding images
-- [Icon Slate](http://kodlian.com/apps/icon-slate/)—for rebuilding favicons
 - [_fswatch_](https://github.com/emcrisostomo/fswatch/) and [BrowserSync](http://browsersync.io/)—for automatic reloading
 - [_s3cmd_](http://s3tools.org/)—for publishing to Amazon S3
+
+```
+# brew install advancecomp fswatch imagemagick jpegoptim node optipng pandoc s3cmd
+# gem install sass
+# npm install -g bower browser-sync clean-css webpack
+```
+
+- [Sketch](http://bohemiancoding.com/sketch/)—for rebuilding images
+- [Icon Slate](http://kodlian.com/apps/icon-slate/)—for rebuilding favicons
 
 
 About
