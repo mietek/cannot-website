@@ -27,18 +27,6 @@ _cannot_ is not a web framework.
 Please report any problems with _cannot_ on the [issue tracker](https://github.com/mietek/cannot/issues/).  There is a [separate issue tracker](https://github.com/mietek/cannot-website/issues/) for problems with the documentation.
 
 
-Usage
------
-
-_cannot_ is installed with [Bower](http://bower.io/), and operates as a [GNU Makefile](https://gnu.org/software/make/).
-
-```
-# bower install cannot
-# ln -s bower_components/cannot/Makefile .
-# make
-```
-
-
 ### Examples
 
 Website                                           | Source code
@@ -49,6 +37,18 @@ Website                                           | Source code
 [Miëtek Bak](https://mietek.io/)                  | [_mietek-website_](https://github.com/mietek/mietek-website/)
 [_bashmenot_](https://bashmenot.mietek.io/)       | [_bashmenot-website_](https://github.com/mietek/bashmenot-website/)
 [_cannot_](https://cannot.mietek.io/)             | [_cannot-website_](https://github.com/mietek/cannot-website/)
+
+
+Usage
+-----
+
+_cannot_ is installed with [Bower](http://bower.io/), and operates as a [GNU Makefile](https://gnu.org/software/make/).
+
+```
+# bower install cannot
+# ln -s bower_components/cannot/Makefile .
+# make
+```
 
 
 ### Documentation
