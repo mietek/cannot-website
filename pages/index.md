@@ -45,9 +45,9 @@ Usage
 _cannot_ is installed with [Bower](http://bower.io/), and operates as a [GNU Makefile](https://gnu.org/software/make/).
 
 ```
-# bower install cannot
-# ln -s bower_components/cannot/Makefile .
-# make
+$ bower install cannot
+$ ln -s bower_components/cannot/Makefile .
+$ make
 ```
 
 
@@ -75,9 +75,9 @@ _cannot_ is installed with [Bower](http://bower.io/), and operates as a [GNU Mak
 - [_s3cmd_](http://s3tools.org/)—for publishing to Amazon S3
 
 ```
-# brew install advancecomp fswatch imagemagick jpegoptim node optipng pandoc s3cmd
-# gem install sass
-# npm install -g bower browser-sync clean-css webpack
+$ brew install advancecomp fswatch imagemagick jpegoptim node optipng pandoc s3cmd
+$ gem install sass
+$ npm install -g bower browser-sync clean-css webpack
 ```
 
 - [Sketch](http://bohemiancoding.com/sketch/)—for rebuilding images
