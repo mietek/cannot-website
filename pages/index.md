@@ -63,16 +63,17 @@ $ make
 
 ### Dependencies
 
-- [GNU _make_](https://gnu.org/software/make/) and [GNU _bash_](https://gnu.org/software/bash/)
-- [Bower](http://bower.io/)—for installation
-- [_pandoc_](http://johnmacfarlane.net/pandoc/)—for generating pages
-- [Sass](http://sass-lang.com/) and [_clean-css_](https://github.com/jakubpawlowicz/clean-css/)—for processing stylesheets
-- [_webpack_](https://webpack.github.io/)—for bundling scripts
-- [_ease-scroll_](https://github.com/mietek/ease-scroll/)—for smooth scrolling
-- [Advance<span class="small-caps">Comp</span>](http://advancemame.sourceforge.net/comp-readme.html)—for recompressing archives
-- [ImageMagick](http://imagemagick.org/), [_jpegoptim_](https://github.com/tjko/jpegoptim/), and [OptiPNG](http://optipng.sourceforge.net/)—for optimising images
-- [_fswatch_](https://github.com/emcrisostomo/fswatch/) and [BrowserSync](http://browsersync.io/)—for automatic reloading
-- [_s3cmd_](http://s3tools.org/)—for publishing to Amazon S3
+_cannot_ is built with [GNU _make_](https://gnu.org/software/make/) and [GNU _bash_](https://gnu.org/software/bash/), and requires:
+
+- [Bower](http://bower.io/) — for installation
+- [_pandoc_](http://johnmacfarlane.net/pandoc/) — for generating pages
+- [Sass](http://sass-lang.com/) and [_clean-css_](https://github.com/jakubpawlowicz/clean-css/) — for processing stylesheets
+- [_webpack_](https://webpack.github.io/) — for bundling scripts
+- [_ease-scroll_](https://github.com/mietek/ease-scroll/) — for smooth scrolling
+- [Advance<span class="small-caps">Comp</span>](http://advancemame.sourceforge.net/comp-readme.html) — for recompressing archives
+- [ImageMagick](http://imagemagick.org/), [_jpegoptim_](https://github.com/tjko/jpegoptim/), and [OptiPNG](http://optipng.sourceforge.net/) — for optimising images
+- [_fswatch_](https://github.com/emcrisostomo/fswatch/) and [BrowserSync](http://browsersync.io/) — for automatic reloading
+- [_s3cmd_](http://s3tools.org/) — for publishing to Amazon S3
 
 ```
 $ brew install advancecomp fswatch imagemagick jpegoptim node optipng pandoc s3cmd
@@ -80,8 +81,8 @@ $ gem install sass
 $ npm install -g bower browser-sync clean-css webpack
 ```
 
-- [Sketch](http://bohemiancoding.com/sketch/)—for rebuilding images
-- [Icon Slate](http://kodlian.com/apps/icon-slate/)—for rebuilding favicons
+- [Sketch](http://bohemiancoding.com/sketch/) — for rebuilding images
+- [Icon Slate](http://kodlian.com/apps/icon-slate/) — for rebuilding favicons
 
 
 About
