@@ -18,9 +18,6 @@ _cannot_
 
 _cannot_ is not a web framework.
 
-> _“Those who do not understand Unix are condemned to reinvent it, poorly.”_  
-> — [Henry Spencer](https://en.wikipedia.org/wiki/Henry_Spencer)
-
 
 ### Support
 
@@ -37,6 +34,13 @@ Website                                           | Source code
 [Miëtek Bak](https://mietek.io/)                  | [_mietek-website_](https://github.com/mietek/mietek-website/)
 [_bashmenot_](https://bashmenot.mietek.io/)       | [_bashmenot-website_](https://github.com/mietek/bashmenot-website/)
 [_cannot_](https://cannot.mietek.io/)             | [_cannot-website_](https://github.com/mietek/cannot-website/)
+
+
+<aside>
+<a class="micro face henry-spencer" href="https://en.wikipedia.org/wiki/Henry_Spencer"></a>
+<blockquote>_“Those who do not understand Unix are condemned to reinvent it, poorly.”_</blockquote>
+<p>[— Henry Spencer](https://en.wikipedia.org/wiki/Henry_Spencer)</p>
+</aside>
 
 
 Usage
@@ -88,7 +92,7 @@ $ npm install -g bower browser-sync clean-css webpack
 About
 -----
 
-<span id="mietek"></span>
+<a class="face mietek" href="https://mietek.io/"></a>
 
 My name is [Miëtek Bak](https://mietek.io/).  I make software, and _cannot_ is one of [my projects](https://mietek.io/projects/).
 
