@@ -36,13 +36,6 @@ Website                                           | Source code
 [_cannot_](https://cannot.mietek.io/)             | [_cannot-website_](https://github.com/mietek/cannot-website/)
 
 
-<aside>
-<a class="micro face henry-spencer" href="https://en.wikipedia.org/wiki/Henry_Spencer"></a>
-<blockquote>_“Those who do not understand Unix are condemned to reinvent it, poorly.”_</blockquote>
-<p>[— Henry Spencer](https://en.wikipedia.org/wiki/Henry_Spencer)</p>
-</aside>
-
-
 Usage
 -----
 
@@ -63,6 +56,13 @@ $ make
 <li><a href="https://github.com/mietek/cannot/">Source code</a></li>
 </ul>
 </nav></div>
+
+
+<aside>
+<a class="micro face henry-spencer" href="https://en.wikipedia.org/wiki/Henry_Spencer"></a>
+<blockquote>_“Those who do not understand Unix are condemned to reinvent it, poorly.”_</blockquote>
+<p>[— Henry Spencer](https://en.wikipedia.org/wiki/Henry_Spencer)</p>
+</aside>
 
 
 ### Dependencies
@@ -92,15 +92,17 @@ $ npm install -g bower browser-sync clean-css webpack
 About
 -----
 
+<div class="aside-like">
 <a class="face mietek" href="https://mietek.io/"></a>
+<blockquote>_My name is [Miëtek Bak](https://mietek.io/).  I make software, and _cannot_ is one of [my projects](https://mietek.io/projects/)._
 
-My name is [Miëtek Bak](https://mietek.io/).  I make software, and _cannot_ is one of [my projects](https://mietek.io/projects/).
+_This work is published under the [MIT X11 license](/license/), and supported by my company, [Least Fixed](https://leastfixed.com/)._
 
-This work is published under the [MIT X11 license](/license/), and supported by my company, [Least Fixed](https://leastfixed.com/).
-
-Like my work?  I am available for consulting.  Say <a class="hello" href="">hello</a>, or follow <a href="https://twitter.com/mietek">@mietek</a>.
+_Like my work?  I am available for consulting.  Say <a class="hello" href="">hello</a>, or follow <a href="https://twitter.com/mietek">@mietek</a>._
+</blockquote>
+</div>
 
 
 ### Acknowledgments
 
-The monospaced font used in this website is [PragmataPro](http://fsd.it/fonts/pragmatapro.htm), by [Fabrizio Schiavi](http://fsd.it/).  The sans-serif font is [Concourse](http://practicaltypography.com/concourse.html), by [Matthew Butterick](http://practicaltypography.com/).
+The monospaced font is [PragmataPro](http://fsd.it/fonts/pragmatapro.htm), by [Fabrizio Schiavi](http://fsd.it/).  The sans-serif font is [Concourse](http://practicaltypography.com/concourse.html), by [Matthew Butterick](http://practicaltypography.com/).
