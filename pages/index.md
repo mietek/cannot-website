@@ -29,7 +29,7 @@ Please report any problems with _cannot_ on the [issue tracker](https://github.c
 Website                                           | Source code
 --------------------------------------------------|--------------
 [Halcyon](https://halcyon.sh/)                    | [_halcyon-website_](https://github.com/mietek/halcyon-website/)
-[Haskell on Heroku](https://haskellonheroku.com/) | [_haskell-on-heroku-website_](https://github.com/mietek/haskell-on-heroku-website/)
+[Haskell on Heroku](https://haskellonheroku.com/) | [_haskell-on-heroku-website_](https://github.com/mietek/haskell-on-heroku-website/)
 [Least Fixed](https://leastfixed.com/)            | [_least-fixed-website_](https://github.com/mietek/least-fixed-website/)
 [Miëtek Bak](https://mietek.io/)                  | [_mietek-website_](https://github.com/mietek/mietek-website/)
 [_bashmenot_](https://bashmenot.mietek.io/)       | [_bashmenot-website_](https://github.com/mietek/bashmenot-website/)
@@ -56,13 +56,6 @@ $ make
 <li><a href="https://github.com/mietek/cannot/">Source code</a></li>
 </ul>
 </nav></div>
-
-
-<aside>
-<a class="micro face henry-spencer" href="https://en.wikipedia.org/wiki/Henry_Spencer"></a>
-<blockquote>_“Those who do not understand Unix are condemned to reinvent it, poorly.”_</blockquote>
-<p>[— Henry Spencer](https://en.wikipedia.org/wiki/Henry_Spencer)</p>
-</aside>
 
 
 ### Dependencies
@@ -106,3 +99,10 @@ _Like my work?  I am available for consulting.  Say <a class="hello" href="">hel
 ### Acknowledgments
 
 The monospaced font is [PragmataPro](http://fsd.it/fonts/pragmatapro.htm), by [Fabrizio Schiavi](http://fsd.it/).  The sans-serif font is [Concourse](http://practicaltypography.com/concourse.html), by [Matthew Butterick](http://practicaltypography.com/).
+
+
+<aside>
+<a class="micro face henry-spencer" href="https://en.wikipedia.org/wiki/Henry_Spencer"></a>
+<blockquote>_“Those who do not understand Unix are condemned to reinvent it, poorly.”_</blockquote>
+<p>[— Henry Spencer](https://en.wikipedia.org/wiki/Henry_Spencer)</p>
+</aside>
