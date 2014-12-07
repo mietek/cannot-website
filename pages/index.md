@@ -60,7 +60,7 @@ $ make
 
 ### Dependencies
 
-_cannot_ is built with [GNU _make_](https://gnu.org/software/make/) and [GNU _bash_](https://gnu.org/software/bash/), and requires:
+_cannot_ is written in [GNU _make_](https://gnu.org/software/make/) and [GNU _bash_](https://gnu.org/software/bash/), and requires:
 
 - [Bower](http://bower.io/) — for installation
 - [_pandoc_](http://johnmacfarlane.net/pandoc/) — for generating pages
