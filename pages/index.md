@@ -28,12 +28,12 @@ Please report any problems with _cannot_ on the [issue tracker](https://github.c
 
 Website                                           | Source code
 --------------------------------------------------|--------------
-[Halcyon](https://halcyon.sh/)                    | [_halcyon-website_](https://github.com/mietek/halcyon-website/)
-[Haskell on Heroku](https://haskellonheroku.com/) | [_haskell-on-heroku-website_](https://github.com/mietek/haskell-on-heroku-website/)
-[Least Fixed](https://leastfixed.com/)            | [_least-fixed-website_](https://github.com/mietek/least-fixed-website/)
-[Miëtek Bak](https://mietek.io/)                  | [_mietek-website_](https://github.com/mietek/mietek-website/)
-[_bashmenot_](https://bashmenot.mietek.io/)       | [_bashmenot-website_](https://github.com/mietek/bashmenot-website/)
-[_cannot_](https://cannot.mietek.io/)             | [_cannot-website_](https://github.com/mietek/cannot-website/)
+[Halcyon](https://halcyon.sh/)                    | [_halcyon-website_](https://github.com/mietek/halcyon-website)
+[Haskell on Heroku](https://haskellonheroku.com/) | [_haskell-on-heroku-website_](https://github.com/mietek/haskell-on-heroku-website)
+[Least Fixed](https://leastfixed.com/)            | [_least-fixed-website_](https://github.com/mietek/least-fixed-website)
+[Miëtek Bak](https://mietek.io/)                  | [_mietek-website_](https://github.com/mietek/mietek-website)
+[_bashmenot_](https://bashmenot.mietek.io/)       | [_bashmenot-website_](https://github.com/mietek/bashmenot-website)
+[_cannot_](https://cannot.mietek.io/)             | [_cannot-website_](https://github.com/mietek/cannot-website)
 
 
 Usage
@@ -53,7 +53,7 @@ $ make
 <div><nav>
 <ul class="menu open">
 <li><a href="/sample/">Sample page</a></li>
-<li><a href="https://github.com/mietek/cannot/">Source code</a></li>
+<li><a href="https://github.com/mietek/cannot">Source code</a></li>
 </ul>
 </nav></div>
 
@@ -64,12 +64,12 @@ _cannot_ is written in [GNU _make_](https://gnu.org/software/make/) and [GNU _ba
 
 - [Bower](http://bower.io/) — for installation
 - [_pandoc_](http://johnmacfarlane.net/pandoc/) — for generating pages
-- [Sass](http://sass-lang.com/) and [_clean-css_](https://github.com/jakubpawlowicz/clean-css/) — for processing stylesheets
+- [Sass](http://sass-lang.com/) and [_clean-css_](https://github.com/jakubpawlowicz/clean-css) — for processing stylesheets
 - [_webpack_](https://webpack.github.io/) — for bundling scripts
-- [_ease-scroll_](https://github.com/mietek/ease-scroll/) — for smooth scrolling
+- [_ease-scroll_](https://github.com/mietek/ease-scroll) — for smooth scrolling
 - [Advance<span class="small-caps">Comp</span>](http://advancemame.sourceforge.net/comp-readme.html) — for recompressing archives
-- [ImageMagick](http://imagemagick.org/), [_jpegoptim_](https://github.com/tjko/jpegoptim/), and [OptiPNG](http://optipng.sourceforge.net/) — for optimising images
-- [_fswatch_](https://github.com/emcrisostomo/fswatch/) and [BrowserSync](http://browsersync.io/) — for automatic reloading
+- [ImageMagick](http://imagemagick.org/), [_jpegoptim_](https://github.com/tjko/jpegoptim), and [OptiPNG](http://optipng.sourceforge.net/) — for optimising images
+- [_fswatch_](https://github.com/emcrisostomo/fswatch) and [BrowserSync](http://browsersync.io/) — for automatic reloading
 - [_s3cmd_](http://s3tools.org/) — for publishing to Amazon S3
 
 ```
