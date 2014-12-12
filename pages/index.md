@@ -19,6 +19,13 @@ _cannot_
 _cannot_ is not a web framework.
 
 
+<aside class="inline">
+<a class="micro face henry-spencer" href="https://en.wikipedia.org/wiki/Henry_Spencer"></a>
+<blockquote>_“Those who do not understand Unix are condemned to reinvent it, poorly.”_</blockquote>
+<p>[— Henry Spencer](https://en.wikipedia.org/wiki/Henry_Spencer)</p>
+</aside>
+
+
 ### Support
 
 Please report any problems with _cannot_ on the [issue tracker](https://github.com/mietek/cannot/issues/).  There is a [separate issue tracker](https://github.com/mietek/cannot-website/issues/) for problems with the documentation.
@@ -99,10 +106,3 @@ _Like my work?  I am available for consulting.  Say <a class="hello" href="">hel
 ### Acknowledgments
 
 The monospaced font is [PragmataPro](http://fsd.it/fonts/pragmatapro.htm), by [Fabrizio Schiavi](http://fsd.it/).  The sans-serif font is [Concourse](http://practicaltypography.com/concourse.html), by [Matthew Butterick](http://practicaltypography.com/).
-
-
-<aside>
-<a class="micro face henry-spencer" href="https://en.wikipedia.org/wiki/Henry_Spencer"></a>
-<blockquote>_“Those who do not understand Unix are condemned to reinvent it, poorly.”_</blockquote>
-<p>[— Henry Spencer](https://en.wikipedia.org/wiki/Henry_Spencer)</p>
-</aside>
