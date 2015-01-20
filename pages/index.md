@@ -19,13 +19,6 @@ _cannot_
 _cannot_ is not a web framework.
 
 
-<aside class="inline">
-<a class="micro face henry-spencer" href="https://en.wikipedia.org/wiki/Henry_Spencer"></a>
-<blockquote>_“Those who do not understand Unix are condemned to reinvent it, poorly.”_</blockquote>
-<p>[— Henry Spencer](https://en.wikipedia.org/wiki/Henry_Spencer)</p>
-</aside>
-
-
 ### Support
 
 Please report any problems with _cannot_ on the [issue tracker](https://github.com/mietek/cannot/issues/).  There is a [separate issue tracker](https://github.com/mietek/cannot-website/issues/) for problems with the documentation.
@@ -43,29 +36,37 @@ Website                                           | Source code
 [_cannot_](https://cannot.mietek.io/)             | [_cannot-website_](https://github.com/mietek/cannot-website)
 
 
+<aside>
+<a class="micro face henry-spencer" href="https://en.wikipedia.org/wiki/Henry_Spencer"></a>
+<blockquote>_“Those who do not understand Unix are condemned to reinvent it, poorly.”_</blockquote>
+<p>[— Henry Spencer](https://en.wikipedia.org/wiki/Henry_Spencer)</p>
+</aside>
+
+
 Usage
 -----
 
-_cannot_ is installed with [Bower](http://bower.io/), and operates as a [GNU Makefile](https://gnu.org/software/make/).
+```
+$ make
+```
+
+
+### Installation
+
+_cannot_ can be installed with [Bower](http://bower.io/):
 
 ```
 $ bower install cannot
 $ ln -s bower_components/cannot/Makefile .
-$ make
 ```
 
 
 ### Documentation
 
-<div><nav>
-<ul class="menu open">
-<li><a href="/sample/">Sample page</a></li>
-<li><a href="https://github.com/mietek/cannot">Source code</a></li>
-</ul>
-</nav></div>
+- Read the [_cannot_ source code](https://github.com/mietek/cannot) to understand how it works.
 
 
-### Dependencies
+#### Dependencies
 
 _cannot_ is written in [GNU _make_](https://gnu.org/software/make/) and [GNU _bash_](https://gnu.org/software/bash/), and requires:
 
