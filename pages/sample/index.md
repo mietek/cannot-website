@@ -1,6 +1,9 @@
 ---
-title: Sample page
+title: Sample
 page-class: add-main-toc
+page-data:
+- key: max-back-link-level
+  value: 3
 page-head: |
   <style>
     header a.link-sample {
@@ -10,8 +13,8 @@ page-head: |
 ---
 
 
-Sample page
-===========
+Sample
+======
 
 <div><nav id="main-toc"></nav></div>
 
